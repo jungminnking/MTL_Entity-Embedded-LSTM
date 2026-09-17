@@ -1,0 +1,21 @@
+target_variable,model,n_cities_used,n_test_cities,MAE,sMAPE_%
+cash_ga,ARIMA,266,266,6554942.34,19.32
+una_ga,ARIMA,266,266,9216591.32,37.61
+una_ba,ARIMA,266,266,2810512.26,38.1
+cur_bal_gn,ARIMA,266,266,3804092.7,19.18
+cash_ga,MTL-LSTM (full),263,263,5155379.71,24.48
+cash_ga,STL-LSTM (full),263,263,7831063.29,30.44
+una_ga,MTL-LSTM (full),263,263,31372713.74,45.9
+una_ga,STL-LSTM (full),263,263,22396016.19,56.43
+una_ba,MTL-LSTM (full),263,263,2022433.38,51.28
+una_ba,STL-LSTM (full),263,263,7128627.44,62.92
+cur_bal_gn,MTL-LSTM (full),263,263,3762009.74,27.98
+cur_bal_gn,STL-LSTM (full),263,263,3550305.32,35.46
+cash_ga,MTL-LSTM (internal),266,266,7658060.24,20.78
+cash_ga,STL-LSTM (internal),266,266,11572650.84,28.97
+una_ga,MTL-LSTM (internal),266,266,24967985.21,43.19
+una_ga,STL-LSTM (internal),266,266,8102898.97,55.87
+una_ba,MTL-LSTM (internal),266,266,2930739.81,48.86
+una_ba,STL-LSTM (internal),266,266,2666632.0,51.02
+cur_bal_gn,MTL-LSTM (internal),266,266,3945310.27,25.07
+cur_bal_gn,STL-LSTM (internal),266,266,4548366.51,22.63
