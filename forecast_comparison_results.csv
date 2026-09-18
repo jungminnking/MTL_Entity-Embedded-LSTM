@@ -1,21 +1,21 @@
-target_variable,model,n_cities_used,n_test_cities,MAE,sMAPE_%
-cash_ga,ARIMA,266,266,6554942.34,19.32
-una_ga,ARIMA,266,266,9216591.32,37.61
-una_ba,ARIMA,266,266,2810512.26,38.1
-cur_bal_gn,ARIMA,266,266,3804092.7,19.18
-cash_ga,MTL-LSTM (full),263,263,7304115.85,21.92
-cash_ga,STL-LSTM (full),263,263,6342889.55,22.2
-una_ga,MTL-LSTM (full),263,263,45325464.3,55.69
-una_ga,STL-LSTM (full),263,263,40114777.96,54.13
-una_ba,MTL-LSTM (full),263,263,2785812.38,48.24
-una_ba,STL-LSTM (full),263,263,2781470.53,48.21
-cur_bal_gn,MTL-LSTM (full),263,263,4351404.84,24.09
-cur_bal_gn,STL-LSTM (full),263,263,3873680.11,23.85
-cash_ga,MTL-LSTM (internal),266,266,6359772.62,21.65
-cash_ga,STL-LSTM (internal),266,266,5553697.48,21.97
-una_ga,MTL-LSTM (internal),266,266,37484887.89,53.09
-una_ga,STL-LSTM (internal),266,266,11376016.88,54.35
-una_ba,MTL-LSTM (internal),266,266,3091020.9,44.78
-una_ba,STL-LSTM (internal),266,266,2533383.58,47.2
-cur_bal_gn,MTL-LSTM (internal),266,266,3913301.86,23.79
-cur_bal_gn,STL-LSTM (internal),266,266,3864795.66,30.52
+target_variable,model,n_cities_used,n_test_cities,MedAE,sMdAPE_%
+cash_ga,ARIMA,266,266,548964.64,12.08
+una_ga,ARIMA,266,266,552320.6,15.84
+una_ba,ARIMA,266,266,333577.68,17.18
+cur_bal_gn,ARIMA,266,266,350669.64,10.52
+cash_ga,MTL-LSTM (full),263,263,794549.5,14.37
+cash_ga,STL-LSTM (full),263,263,771829.73,15.47
+una_ga,MTL-LSTM (full),263,263,807782.25,28.86
+una_ga,STL-LSTM (full),263,263,880676.98,32.5
+una_ba,MTL-LSTM (full),263,263,522103.75,29.73
+una_ba,STL-LSTM (full),263,263,453943.85,23.78
+cur_bal_gn,MTL-LSTM (full),263,263,486088.0,16.2
+cur_bal_gn,STL-LSTM (full),263,263,633971.71,20.4
+cash_ga,MTL-LSTM (internal),266,266,916760.0,21.33
+cash_ga,STL-LSTM (internal),266,266,843571.18,19.47
+una_ga,MTL-LSTM (internal),266,266,807635.01,27.34
+una_ga,STL-LSTM (internal),266,266,913564.05,27.9
+una_ba,MTL-LSTM (internal),266,266,486753.94,24.04
+una_ba,STL-LSTM (internal),266,266,475068.0,24.85
+cur_bal_gn,MTL-LSTM (internal),266,266,707587.75,23.94
+cur_bal_gn,STL-LSTM (internal),266,266,609098.73,19.27
