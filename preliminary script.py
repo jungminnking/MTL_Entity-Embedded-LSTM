@@ -77,7 +77,7 @@ tf.random.set_seed(42)
 
 # ============================================================== CONFIG ====
 DATA_PATH = "variable.xlsx"
-TARGET_VARS = ["cash_ga", "una_ga", "una_ba", "cur_bal_gn"]
+TARGET_VARS = ["opr_ratio_gn", "opr_ratio_ep", "cash_ratio_totasst","totdebt_to_asst","capital_to_asst", "funded_ratio_total"]
 EXTERNAL_VARS = ["ln_pop_city", "ln_curgdp", "ln_psnl_incm", "employment", "ln_med_homevalue",
                     "property_rel","intg_rev_rel",
                     "disaster_event", "flood_dmg_tot",
